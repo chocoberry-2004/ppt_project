@@ -217,7 +217,7 @@ nav.navbar {
 /* <!-- start client section --> */
 
 section {
-    padding: 80px 0px;
+    padding: 10px 0px;
 }
 
 .section-titles {
@@ -250,8 +250,9 @@ section {
 }
 
 .section-titles p{
-    color: #7777;
+    color: #342e2e77;
     font-size: 1.1rem;
+    font-weight: 400;
     margin-top: 15px;
 }
 
@@ -288,7 +289,8 @@ section {
 }
 
 .card-text {
-    color: #6666;
+    color: rgb(46, 38, 38) !important;
+    font-weight: medium;
     margin-bottom: 20px;
 
 }
@@ -313,11 +315,12 @@ section {
 
 
 .teamcards .social-icons a {
-    width: 36px;
+    width: 36px;    
     height: 36px;
     display: inline-block;
     background-color: #f5f5ff;
-    color: #5555;
+    font-weight: 400;
+    color: #1c161655 !important;
     border-radius: 50%;
 
     text-align: center;
@@ -431,6 +434,20 @@ section {
 .pricing-footers {
     background-color: #f9f9f9;
     padding: 20px;
+}
+
+.card-link {
+    text-decoration: none;
+    background-color: steelblue;
+    padding: 5px 10px;
+    color: white;
+    font-size: 16px;
+    border-radius: 50px;
+
+}
+
+.contact-link {
+    background-color: #2ecc71;
 }
  
 /* <!-- end pricing section --> */
@@ -599,3 +616,6 @@ footer p{
 }
 
 /* end Animation for banner  */
+
+
+
